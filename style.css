@@ -1,85 +1,75 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main {
-  width: 70vw;
-  height: 90vh;
-  border: 2px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(255, 255, 0);
-}
-.box1 {
-  width: 40%;
-  height: 90%;
-  /* background-color: rgb(255, 0, 255); */
-}
-.box2 {
-  width: 100%;
-  height: 40%;
-  background-color: #159af3;
-}
-.nav {
-  width: 100%;
-  height: 40%;
-  display: flex;
-  align-items: center;
-  /* gap: 330px; */
-  justify-content: space-between;
-  padding: 0px 15px;
-  color: white;
-  font-size: 20px;
-}
-.dp {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  /* background-color: black; 
-    */
-  text-align: center;
-  margin: 30px 150px;
-}
-.dp img {
-  border-radius: 50%;
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-  object-position: center;
-}
-.footer{
-    background-color: white;
+html,body{
     width: 100%;
-    /* height: 20%; */
-    /* background-color: yellow; */
-    margin: 5px 0px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+    height: 100%;
+}
+.contener{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(185, 42, 42, 0.637);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.box{
+    justify-content: center;
     
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
 }
-.box img{
-    width: 60%;
-    height: 60%;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
+.box1{
+    width: 65%;
+    height: 80%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.664);
+overflow: hidden;
+    
 }
+
+.box4{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box2 a{
+    margin: 0 10px;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url(mahd-unsplash.jpg);
+background-position: top;
+background-size: cover;
+
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 217, 0); */
+text-align: center;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 15px;
+}
+
+.k{
+    margin-top: 40%;
+    width: 50%;
+    margin-left: 70px;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+}
+.suger-dady{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 35%;
+left: 40%;
+}
+/*
